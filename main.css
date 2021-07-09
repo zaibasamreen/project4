@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url('/bg-pattern-desktop.svg');
+}
+.hero{
+    width: 40vw;
+    min-height: 100vh;
+    float: right;
+    object-fit: cover;
+}
+
+.box{
+    width: 60vw;
+    height: 100vh;
+    background-image: url("http://www.w3.org/2000/svg");
+    position: absolute;
+    float: left;
+    background-repeat: no-repeat;
+    
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.beat{
+    padding-left: 40px;
+    padding-top: 70px;
+    font-size: 70px;
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 50px;
+    width: 400px;
+    height: 50px;
+    border-color: lightpink;
+    margin-left: 40px;
+    
+
+}
+button{
+    background-image: linear-gradient();
+    padding: 12px;
+    border-radius: 50px;
+    border-color: no-border;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    background-color: coral;
+    box-shadow: 2px 2px 5px hsla(0, 36%, 70%, 0.5);
+    margin-left: -80px;
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+}
+.erroricon{
+    position:absolute;
+    left: 370px;
+    
+
+}
